@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    background-color: black;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container a:hover {
+    color: aqua;
+}
+
+.logo-item {
+    width: 140px;
+}
+
+.list-items {
+    display: flex;
+
+}
+
+.item {
+    margin-right: 15px;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.baner-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("../images/background.png"), linear-gradient(45deg, #1e1d1d, #514f4f);
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* .baner-container a{
+    color: white;
+    padding: 10px 15px;
+    background-color: rgb(222, 55, 72);
+    text-decoration: none; */
+
+
+
+.picture {
+    width: 450px;
+}
+
+.title {
+    font-size: 55px;
+    font-weight: blod;
+    margin-bottom: 5px;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.button {
+    color: #fff;
+    padding: 13px 18px;
+    background-color: orangered;
+    border: none;
+    border-radius: 3px;
+}
+
+.about-container {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-header {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+.picture2 {
+    width: 350px;
+}
+
+.about-header2 {
+    margin-bottom: 12px;
+    font-size: 45px;
+
+}
+
+.about-pera {
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: #292727;
+}
+
+.button2 {
+    color: #fff;
+    padding: 13px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: orangered;
+    font-size: 16px;
+
+}
+.tawhid{
+    background-image: url("../images/background.png"), linear-gradient(50deg,#303030 , #2e2d2d );
+}
+.box {
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 5px 15px gray;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    padding: 25px;
+}
+.icon{
+    width: 80px;
+}
+
+.button3{
+    background-color: gray;
+    margin-top: 8px;
+}
+.service-header{
+    margin-bottom: 5px;
+    padding-top: 20px;
+
+}
+.pera2{
+    padding: 5px;
+}
+.service-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.service-header{
+    
+    color: #fff;
+}
